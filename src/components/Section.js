@@ -6,7 +6,7 @@ const Section = (props) => {
       <h2>{props.category}</h2>
       <div className="carroussel">
         {props.images.map((elem, index) => {
-          return <img src={elem} key={index} />;
+          return <img src={elem} alt={`logo ${index}`} />;
         })}
       </div>
     </div>

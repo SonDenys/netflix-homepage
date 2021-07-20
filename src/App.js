@@ -8,7 +8,7 @@ console.log(MoviesList);
 function App() {
   return (
     <div className="App">
-      <img src={logo} />
+      <img src={logo} alt="logo" />
       {MoviesList.map((elem, index) => {
         return (
           <Section key={index} category={elem.category} images={elem.images} />
